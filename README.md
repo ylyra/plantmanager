@@ -47,12 +47,9 @@ npm install
 yarn
 
 # Execute a aplicação em modo de desenvolvimento
-npm run dev
+npm run start
 # ou
-yarn dev
-
-# O projeto iniciará na porta :3000 para acessar ele no localhost basta ir em <http://localhost:3000>
-
+yarn start
 
 # Em services/api troque a baseURL pela sua url gerada pelo heroku
 ```
@@ -63,16 +60,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [Next.js](https://nextjs.org/)
-- [Axios](https://axios-http.com/)
 - [date-fns](https://date-fns.org/)
-- [FramerMotion](https://www.framer.com/motion/)
-- [rc-slider](http://react-component.github.io/slider/)
-- [Sass](https://sass-lang.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-
-<p align="center">
-  <a href="http://moveit.yanlyra.com.br/">
-    <img src="https://img.shields.io/static/v1?label=Site&message=Move.it&color=7159c1&style=for-the-badge&logo=ghost"/>
-  </a>
-</p>
