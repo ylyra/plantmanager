@@ -15,15 +15,15 @@ Tabela de conteúdos
 
 ## Sobre
 
-Este site foi desenvolvido durante a [NLW#05](http://nextlevelweek.com/) o mesmo tem como o objetivo organizar as suas plantas e ajudar a lembrar quando deve molhar as mesmas.
+Este site foi desenvolvido durante a [NLW#05](http://nextlevelweek.com/) o mesmo tem como o objetivo organizar as suas plantas em um unico lugar e ajudar a te lembrar quando deve molhar as mesmas.
 
 
 ## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Expo-Cli](https://git-scm.com), [Node.js](https://nodejs.org/en/) e caso queria indico a utilziação do [Yarn](https://yarnpkg.com/). Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e caso queria indico a utilziação do [Yarn](https://yarnpkg.com/), [Expo-Cli](https://docs.expo.io/workflow/expo-cli/). Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-# Backend
+## Backend
 
 Este projeto roda em um backend fictício então antes de iniciar o projeto no seu pc é necessário criar um deploy no heroku para que o seu server possa rodar, clicando no botão abaixo este processo será feito automaticamente.
 
@@ -36,10 +36,10 @@ Este projeto roda em um backend fictício então antes de iniciar o projeto no s
 ## Iniciando
 ```bash
 # Clone este repositório
-git clone <https://github.com/ylyra/podcastr>
+git clone <https://github.com/ylyra/plantmanager>
 
 # Acesse a pasta do projeto no terminal/cmd
-cd podcastr
+cd plantmanager
 
 # Instale as dependências
 npm install
@@ -51,7 +51,8 @@ npm run start
 # ou
 yarn start
 
-# Em services/api troque a baseURL pela sua url gerada pelo heroku
+
+# Em src/services/api.ts troque a baseURL pela sua url da api gerada pelo heroku
 ```
 
 ## Tecnologias
@@ -59,6 +60,13 @@ yarn start
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
+- [Expo](https://docs.expo.io/)
 - [React](https://pt-br.reactjs.org/)
+- [Axios](https://axios-http.com/)
 - [date-fns](https://date-fns.org/)
+- [LottieFiles](https://lottiefiles.com/)
+- [expo-google-fonts](https://github.com/expo/google-fonts/)
+- [expo-vector-icons](https://docs.expo.io/guides/icons/)
+- [@react-native-async-storage/async-storage](https://github.com/react-native-async-storage/async-storage/)
+- [expo-notifications](https://docs.expo.io/versions/latest/sdk/notifications/)
 - [TypeScript](https://www.typescriptlang.org/)
